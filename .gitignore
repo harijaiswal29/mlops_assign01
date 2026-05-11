@@ -16,9 +16,10 @@ htmlcov/
 venv/
 env/
 
-# IDE / OS
+# IDE / OS / tool-local
 .vscode/
 .idea/
+.claude/
 .DS_Store
 *.swp
 
