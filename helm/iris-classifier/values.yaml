@@ -1,0 +1,39 @@
+replicaCount: 2
+
+image:
+  repository: iris-classifier
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+env:
+  MODEL_PATH: /app/models/best_model.joblib
+
+probes:
+  readiness:
+    path: /health
+    initialDelaySeconds: 5
+    periodSeconds: 10
+  liveness:
+    path: /health
+    initialDelaySeconds: 20
+    periodSeconds: 30
+
+ingress:
+  enabled: false
+  className: nginx
+  host: iris.local
+  path: /
+  pathType: Prefix
