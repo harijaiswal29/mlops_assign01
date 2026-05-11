@@ -1,5 +1,9 @@
 # MLOps Assignment 01 — Iris Classification
 
+> Full milestone-by-milestone write-up is in [`reports/report.md`](reports/report.md).
+> Submission checklist and screenshot placeholders are at the bottom of that file.
+
+
 End-to-end MLOps pipeline demonstrating CI/CD, experiment tracking, data versioning, hyperparameter tuning, containerization, and Kubernetes deployment for an Iris classification model.
 
 Submitted for **BITS Pilani M.Tech — MLOps (Assignment 01)**.
