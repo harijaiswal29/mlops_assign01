@@ -8,6 +8,8 @@ End-to-end MLOps pipeline demonstrating CI/CD, experiment tracking, data version
 
 Submitted for **BITS Pilani M.Tech — MLOps (Assignment 01)**.
 
+[![CI](https://github.com/harijaiswal29/mlops_assign01/actions/workflows/ci.yml/badge.svg)](https://github.com/harijaiswal29/mlops_assign01/actions/workflows/ci.yml)
+
 ## Milestones covered
 
 | ID | Topic | Tools |
