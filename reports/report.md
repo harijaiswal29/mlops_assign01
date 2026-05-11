@@ -3,7 +3,9 @@
 **Student:** Hari Jaiswal (2023aa05106)
 **Program:** BITS Pilani M.Tech, MLOps
 **Project:** End-to-end MLOps pipeline for an Iris classification model
-**Repository:** `<GitHub URL — fill in after push>`
+**Repository:** https://github.com/harijaiswal29/mlops_assign01
+**CI runs:** https://github.com/harijaiswal29/mlops_assign01/actions
+**Live verification output (with actual run-IDs, hashes, and logs):** [`verification_output.md`](verification_output.md)
 
 ---
 
