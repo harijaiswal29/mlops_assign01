@@ -1,0 +1,4 @@
+[core]
+    remote = localremote
+['remote "localremote"']
+    url = /home/hari_jaiswal/dvc-storage-mlops_assign01
